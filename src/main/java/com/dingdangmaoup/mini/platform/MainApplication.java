@@ -1,14 +1,12 @@
 package com.dingdangmaoup.mini.platform;
 
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan(basePackages = {"com.dingdangmaoup.mini.platform.dao"})
-public class WxCloudRunApplication {  
+public class MainApplication {
 
   public static void main(String[] args) {
-    SpringApplication.run(WxCloudRunApplication.class, args);
+    SpringApplication.run(MainApplication.class, args);
   }
 }
