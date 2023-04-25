@@ -1,11 +1,11 @@
-package com.tencent.wxcloudrun;
+package com.dingdangmaoup.mini.platform;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan(basePackages = {"com.tencent.wxcloudrun.dao"})
+@MapperScan(basePackages = {"com.dingdangmaoup.mini.platform.dao"})
 public class WxCloudRunApplication {  
 
   public static void main(String[] args) {
